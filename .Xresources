@@ -1,0 +1,7 @@
+xterm*utf8		: 1
+xterm*locale		: true
+xterm*faceName		: Komatuna
+xterm*faceSize		: 10
+xterm*background	: black
+xterm*foreground	: gray80
+
