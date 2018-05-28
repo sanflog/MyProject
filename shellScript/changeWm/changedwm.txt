@@ -1,0 +1,10 @@
+export GTK_IM_MODULE='uim'
+export QT_IM_MODULE='uim'
+uim-xim &
+export XMODIFIERS='@im=uim'
+
+hsetroot -full ~/pictures/beautifulgirl2.jpg
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+(conky | while read LINE; do xsetroot -name "$LINE"; done) &
+
+exec /usr/local/bin/dwm

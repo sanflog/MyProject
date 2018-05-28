@@ -1,0 +1,11 @@
+Change background image
+	display -window root IMAGEPATH
+	xsetroot -solid COLOR
+	#display command need imagemagick package.
+	hsetroot -full PATH
+	#hsetroot command install in AUR
+Display Alpha
+	$xcompmgr &
+	$transset-df
+Check display dimension
+	xdpyinfo | grep dimensions

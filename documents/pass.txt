@@ -1,0 +1,3 @@
+git pass
+ email:daichan613@gmail.com
+ pass: daichan613
